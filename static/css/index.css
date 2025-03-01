@@ -2,18 +2,21 @@
     background-color: hsl(350, 100%, 88%, 0.5);
     float:left;
     width: 100%;
+    user-select: none;
 }
 
 .bckg_red {
     background-color: hsl(34, 57%, 70%, 0.5);
     float:left;
     width: 100%;
+    user-select: none;
 }
 
 .bckg_1989 {
     background-color: lightblue;
     float:left;
     width: 100%;
+    user-select: none;
 }
 
 .tit_lover {
@@ -22,6 +25,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     letter-spacing: 0.3em;
+    user-select: none;
 }
 
 .tit_red {
@@ -30,6 +34,7 @@
     font-family:fantasy;
     text-align: center;
     letter-spacing: 0.3em;
+    user-select: none;
 }
 
 .tit_1989 {
@@ -38,6 +43,7 @@
     font-family:fantasy;
     text-align: center;
     letter-spacing: 0.3em;
+    user-select: none;
 }
 
 .lover {
@@ -45,6 +51,7 @@
     float: left;
     height: 900px;
     width: 33%;
+    user-select: none;
 }
 
 .right {
@@ -52,6 +59,7 @@
     color: cornsilk;
     float: right;
     text-decoration: none;
+    user-select: none;
 }
 
 .left {
