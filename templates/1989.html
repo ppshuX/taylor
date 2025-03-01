@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>1989</title>
+    <link rel="icon"
+        href="https://img1.baidu.com/it/u=2205130179,4180196576&fm=253&fmt=auto&app=138&f=JPEG?w=475&h=475">
+</head>
+
+<body>
+    <div class="bckg_1989">
+        <hr>
+        <div class="tit_1989">1989</div>
+        <a class="left" href="{% url 'red' %}">to red</a>
+        <a class="right" href="{% url 'index' %}">to lover</a>
+        <hr>
+
+        <br>
+        <img class="numbers" src="{% static 'photos/19891.png' %}" alt="photo">
+        <img class="numbers" src="{% static 'photos/19890.png' %}" alt="photo">
+        <img class="numbers" src="{% static 'photos/19891.png' %}" alt="photo">
+    </div>
+</body>
+
+</html>
