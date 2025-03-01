@@ -46,14 +46,6 @@
     user-select: none;
 }
 
-.lover {
-    margin: 2.5px;
-    float: left;
-    height: 900px;
-    width: 33%;
-    user-select: none;
-}
-
 .right {
     font-size: 25px;
     color: cornsilk;
@@ -67,6 +59,14 @@
     color: cornsilk;
     float: left;
     text-decoration: none;
+}
+
+.lover {
+    margin: 2.5px;
+    float: left;
+    height: 900px;
+    width: 33%;
+    user-select: none;
 }
 
 .red {
